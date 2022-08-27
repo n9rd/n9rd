@@ -1,16 +1,24 @@
-### Hi there 👋
+```py
 
-<!--
-**n9rd/n9rd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-Here are some ideas to get you started:
+class n9rd:
+  
+  def __init__(self):
+    self.name = "Nick"
+    self.role = "Student"
+    self.age = 13
+    self.language = ["en_US"]
+   
+  def welcome(self):
+    print("""
+      Welcome to my GitHub profile! 😁👋
+      
+      I hope you enjoy your stay, have a nice day!
+    """)
+    
+me = n9rd()
+me.welcome()
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
