@@ -12,8 +12,11 @@ class n9rd:
     self.language = ["en_US"]
    
   def welcome(self):
-    print("""
+    print(f"""
       Welcome to my GitHub profile! 😁👋
+
+      I'm {self.name} and I'm currently a {self.role}.
+      I'm {self.age} years old and I only speak {self.language[0]}.
       
       I hope you enjoy your stay, have a nice day!
     """)
